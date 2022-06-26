@@ -11,3 +11,4 @@
  2. cd api-filmes (para entrar na pasta)
  3. npm start (rodar na web)
  4. instalar a extenção (vscode-styled-components) para dar auto-complit.
+ 5. Utilizar a biblioteca styled components para estilização.
