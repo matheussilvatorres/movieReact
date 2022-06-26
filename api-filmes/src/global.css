@@ -1,0 +1,12 @@
+*{
+  margir: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+body{ 
+  background-color: black;
+  color: white;
+  padding: 2rem; 
+}
