@@ -5,16 +5,19 @@ import './global.css';
 import Home from './pages/home';
 import Details from './pages/details';
 
-/* const root = ReactDOM.createRoot(document.getElementById('root'));
+ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/details:id' element={<Details/>}/>
+    </Routes>
+  </BrowserRouter>
 );
 
- pode ser assim também: */
+ /*pode ser assim também: */
 
-ReactDOM.render(
+/*ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -22,6 +25,6 @@ ReactDOM.render(
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
-);
+);*/
 
 
