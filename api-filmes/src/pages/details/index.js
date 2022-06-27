@@ -23,7 +23,7 @@ function Details(){
                     title,
                     sinopse: overview,
                     image: `${image_path}${poster_path}`,
-                    release_date: release_date 
+                    releaseDate: release_date 
                 }
                 setMovie(movie)
             }
