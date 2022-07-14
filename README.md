@@ -13,5 +13,5 @@
  4. instalar a extenção (vscode-styled-components) para dar auto-complit.
  5. Utilizar a biblioteca styled components para estilização. (ctrl c para para a execução do projeto)
  6. npm install styled-components
- 7. voltar a rodar o projeto com (npm start)
+ 7. voltar a rodar o projeto com (npm start).
  8. Instalar React Router: npm install react-router-dom@6
